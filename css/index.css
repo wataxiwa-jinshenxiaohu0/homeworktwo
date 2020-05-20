@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+.Cont {width: 300px;height: 290px;padding: 15px;border-radius: 5px;box-shadow: 0 2px 3px #ccc;margin-bottom: 20px;margin: 250px auto;background-color: #66847A;opacity: 0.4;margin-left: 1330px;float: left;margin-top: 0px}
+		.Landing{font-size: 26px;margin-top: 0px;color: #fff;margin-left: 30px;margin: auto;text-decoration: none;width: 70px;}
+		.Al {width: 60px;height: 40px;border-radius: 5px;margin-top: 0px;margin: auto;color: #FFFFFF;background-color: #5F6A7C;border-color: #8CDDFB;opacity:1}
+		.Pro_Plan {margin: 30px auto;text-decoration: none;text-align: center;}
+		input{height: 45px;width: 280px;margin-top: 20px;border-radius: 5px;}
+		.Logon a{height: 38px;margin: -105px;font-size: 20px;color: #FFFFFF;text-align: center;text-decoration: none}
+		.Forget a{margin-left:-25px;font-size: 20px;color: #FFFFFF;float: right;}
+		.Navigation{text-align: center;font-family: simhei;font-size: 35px;color: white;padding-left: 80px;float: right;margin-top: 20px;margin-right: 50px}
+		.TitleBox{border: solid 1px #46F17F;background: url(../img/panda.jpg);background-size: cover;width: 1900px;height: 400px;margin-bottom: 100px;cursor:auto}
+		.Footer{text-align: center;font-family: simhei;font-size: 10px;background-color: slategray;height: 100px;padding-top: 80px;width:1900px;margin-top:-1200px}
+		.WhellPlanting{margin: 280px;margin-top: 200px}
+		.RecommendOne{background-image: url(img/beijing.jpg);width: 250px;height: 200px;margin: 280px;margin-top: -250px;border: 5px solid #C9C69D;opacity: 0.8}
+		.RecommendTwo{background-image: url(img/beijing.jpg);width: 250px;height: 200px;margin: 850px;margin-top: -490px;border: 5px solid #C9C69D;opacity: 0.8}
+		.RecommendThree{background-image: url(img/beijing.jpg);width: 250px;height: 200px;margin: 1400px;margin-top: -1060px;border: 5px solid #C9C69D;opacity: 0.8}
+		.RecommendText{font-family: simhei;font-size: 20px;text-align: center}
+		.Adjustment{margin-top: 1100px}
+		body{background-image: url(img/beijing2.jpg)}
+		A:link{color: black;text-decoration: none}
+		A:visited{color: black;text-decoration: none}
+		.TitleBox a:link{color: aliceblue}
+		.TitleBox a:visited{color: aliceblue}
+		.Cont a:link{color: aliceblue}
+		.Navigation a:hover{color: #369E25}
+		.Forget a:hover{color: #50EBFF}
+		.Logon a:hover{color: #50EBFF}
+		.RecommendOne a:hover{color:#636363}
+		.RecommendTwo a:hover{color:#636363}
+		.RecommendThree a:hover{color:#636363}
+		#frame {position: absolute;width: 800px;height: 400px;overflow: hidden;border-radius:5px;border: 10px solid #888888}
+		#photos img {float: left;width:800px;height:400px}
+		#photos {position: absolute;z-index:9px;width: calc(800px * 5)}
+		.Play{animation: ma 20s ease-out infinite alternate}
+		@keyframes ma {
+			0%,20% {		margin-left: 0px;		}
+			25%,40% {		margin-left: -800px;	}
+			45%,60% {		margin-left: -1600px;	}
+			65%,80% {		margin-left: -2400px;	}
+			85%,100% {		margin-left: -3200px;	}
+		}
+		.Num{position:absolute;z-index:10;display:inline-block;right:325px;top:360px;border-radius:100%;background: #B4B4B4;width:25px;height:25px;line-height:25px;cursor:pointer;color:#fff;text-align:center;opacity:0.8;}
+		.Num:hover{background: #7B7B7B;}
+		.Num:hover,#photos:hover{animation-play-state:paused;}
+		.Num:nth-child(2){margin-right:30px}
+		.Num:nth-child(3){margin-right:60px}
+		.Num:nth-child(4){margin-right:90px}
+		.Num:nth-child(5){margin-right:120px}
+		#a1:hover ~ #photos{animation: ma1 .5s ease-out forwards;}
+		#a2:hover ~ #photos{animation: ma2 .5s ease-out forwards;}
+		#a3:hover ~ #photos{animation: ma3 .5s ease-out forwards;}
+		#a4:hover ~ #photos{animation: ma4 .5s ease-out forwards;}
+		#a5:hover ~ #photos {animation: ma5 .5s ease-out forwards;}
+		@keyframes ma1 {0%{margin-left:-3200px;}100%{margin-left:-0px;}	}
+		@keyframes ma2 {0%{margin-left:-3200px;}100%{margin-left:-800px;}	}
+		@keyframes ma3 {100%{margin-left:-1600px;}	}
+		@keyframes ma4 {100%{margin-left:-2400px;}	}
+		@keyframes ma5 {100%{margin-left:-3200px;}	}

@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* CSS Document */
+.Search{text-align: center;margin-top: 250px}
+		.Submit{text-align: center;margin-top: 100px;margin-bottom: 280px}
+		.Frame{width: 600px;height: 50px;font-size: 30px}
+		.Button{width: 60px;height: 35px}
+		.Footer{text-align: center;font-family: simhei;font-size: 10px;background-color: slategray;height: 100px;padding-top: 80px;margin-top: 400px}
+		body{background-image: url(../img/beijing2.jpg)}

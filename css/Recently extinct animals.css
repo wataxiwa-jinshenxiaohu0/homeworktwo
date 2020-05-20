@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+.Navigation{text-align: center;font-family: simhei;font-size: 35px;color: white;padding-left: 80px;float: right;margin-top: 20px;margin-right: 50px}
+				.ArticleText{text-align: left;font-family: simhei;font-size: 20px;text-indent: 2em}
+				.ArticleTitle{text-align: center;font-family: simhei;font-size: 30px;}
+				.Footer{text-align: center;font-family: simhei;font-size: 10px;background-color: slategray;height: 100px;padding-top: 80px}
+				.TitleBox{border: solid 1px #46F17F;background: url(../img/panda.jpg);background-size: cover;width: 1900px;height: 400px;margin-bottom: 100px;cursor:auto}
+				.TextBox{border: solid 5px #B3B3B3;margin: 100px;width: 1200px;margin-left: 350px}
+				.HeadLine{text-align: center;font-family: simhei; font-size: 40px;color: forestgreen;font-weight: bold}
+				body{background-image: url(../img/beijing2.jpg)}
+				.TitleBox a:link{color: aliceblue;text-decoration: none}
+				.TitleBox a:visited{color: aliceblue}
+				.Navigation a:hover{color: #369E25}
